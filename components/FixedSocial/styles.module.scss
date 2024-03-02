@@ -1,0 +1,16 @@
+.section {
+  @apply fixed;
+  @apply left-[21.250px];
+  @apply bottom-[24px];
+}
+
+.wrapper {
+  @apply flex;
+  @apply flex-col;
+  @apply gap-y-2;
+
+  img {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    @apply rounded-full;
+  }
+}

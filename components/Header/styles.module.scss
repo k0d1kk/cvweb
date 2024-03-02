@@ -1,0 +1,18 @@
+.wrapper {
+  @apply w-full;
+  @apply flex;
+  @apply justify-between;
+  @apply h-auto;
+  @apply items-center;
+}
+
+.navigation {
+  @apply flex;
+  @apply justify-center;
+  @apply gap-x-3;
+
+  li {
+    @apply text-lg;
+    @apply font-medium;
+  }
+}
